@@ -4,11 +4,11 @@ import scipy.stats as stats
 alpha = 0.05
 beta = 0.20
 sd = 156
-delta = 0.10  # относительное изменение
+delta = 0.10  
 mean_daily_traffic = 20000
-mean_time_spent = 25  # в минутах
+mean_time_spent = 25  
 
-# Находим Z-значения для alpha/2 и beta
+# Находим Z-значения 
 z_alpha_half = stats.norm.ppf(1 - alpha / 2)
 z_beta = stats.norm.ppf(1 - beta)
 
